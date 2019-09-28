@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
-namespace IndependentLibrary
+namespace InterestingService
 {
     public interface IService
     {
@@ -16,13 +13,14 @@ namespace IndependentLibrary
     public sealed class LoggingService : IService
     {
         public void Execute(int parameter) =>
-            Console.WriteLine($"Parameter={parameter}");
+            Trace.WriteLine($"Parameter={parameter}");
     }
 
     public sealed class BackgroundLoggingService : IService
     {
         public void Execute(int parameter) =>
-            Task.Run(() => Console.WriteLine($"Parameter={parameter}"));
+            ThreadPool.QueueUserWorkItem(_ =>
+                Trace.WriteLine($"Parameter={parameter}"));
     }
 
     public sealed class MakeMoneyService : IService
@@ -37,6 +35,7 @@ namespace IndependentLibrary
             }
         }
 
-        private static readonly string walletServiceUrl = "https://example.com/api/make";
+        private static readonly string walletServiceUrl =
+            "https://example.com/api/make";
     }
 }
