@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileAccessWithAsync", "File
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppWithAsync", "WpfAppWithAsync\WpfAppWithAsync.csproj", "{41B1BCA8-425E-46A4-AA84-33305DCFBEDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndependentLibrary", "IndependentLibrary\IndependentLibrary.csproj", "{8D86FF14-9421-40FA-BCDF-A7110EE4C651}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{41B1BCA8-425E-46A4-AA84-33305DCFBEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41B1BCA8-425E-46A4-AA84-33305DCFBEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41B1BCA8-425E-46A4-AA84-33305DCFBEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D86FF14-9421-40FA-BCDF-A7110EE4C651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D86FF14-9421-40FA-BCDF-A7110EE4C651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D86FF14-9421-40FA-BCDF-A7110EE4C651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D86FF14-9421-40FA-BCDF-A7110EE4C651}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
