@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfAppModelDesignWithAsync.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
+        mc:Ignorable="d"
+        Title="WpfAppModelDesignWithAsync" Height="200" Width="300">
+    <controls:DockPanel>
+        <controls:Button x:Name="button" DockPanel.Dock="Top">Execute...</controls:Button>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <controls:TextBox x:Name="textBox1" Grid.Column="0" IsReadOnly="true" VerticalScrollBarVisibility="Visible" />
+            <controls:TextBox x:Name="textBox2" Grid.Column="1" IsReadOnly="true" VerticalScrollBarVisibility="Visible" />
+        </Grid>
+    </controls:DockPanel>
+</Window>
