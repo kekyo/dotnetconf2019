@@ -5,11 +5,15 @@ VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileAccessWithAsync", "FileAccessWithAsync\FileAccessWithAsync.csproj", "{DCEF14B7-956D-4C6C-9174-D8B492B4D23E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppWithAsync", "WpfAppWithAsync\WpfAppWithAsync.csproj", "{41B1BCA8-425E-46A4-AA84-33305DCFBEDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAppWithAsync", "WpfAppWithAsync\WpfAppWithAsync.csproj", "{41B1BCA8-425E-46A4-AA84-33305DCFBEDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndependentLibrary", "IndependentLibrary\IndependentLibrary.csproj", "{8D86FF14-9421-40FA-BCDF-A7110EE4C651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndependentLibrary", "IndependentLibrary\IndependentLibrary.csproj", "{8D86FF14-9421-40FA-BCDF-A7110EE4C651}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterestingService", "InterestingService\InterestingService.csproj", "{56101560-3B78-4F4A-8BF9-6D53E41AFDDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaceConditionWithAsync", "RaceConditionWithAsync\RaceConditionWithAsync.csproj", "{F23C6EFD-745A-465D-9869-625C771A396B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppRaceConditionWithAsync", "WpfAppRaceConditionWithAsync\WpfAppRaceConditionWithAsync.csproj", "{0A620E05-7285-49B0-9246-4CCA1D8713E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{56101560-3B78-4F4A-8BF9-6D53E41AFDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56101560-3B78-4F4A-8BF9-6D53E41AFDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56101560-3B78-4F4A-8BF9-6D53E41AFDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F23C6EFD-745A-465D-9869-625C771A396B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23C6EFD-745A-465D-9869-625C771A396B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23C6EFD-745A-465D-9869-625C771A396B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23C6EFD-745A-465D-9869-625C771A396B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A620E05-7285-49B0-9246-4CCA1D8713E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A620E05-7285-49B0-9246-4CCA1D8713E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A620E05-7285-49B0-9246-4CCA1D8713E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A620E05-7285-49B0-9246-4CCA1D8713E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
